@@ -159,6 +159,8 @@ foreach hdr {
    sqliteicu.h
    sqliteInt.h
    sqliteLimit.h
+   userauth.c
+   userauth.h
    vdbe.h
    vdbeInt.h
    vxworks.h
@@ -449,6 +451,7 @@ foreach file {
    dbstat.c
    dbpage.c
    sqlite3session.c
+   userauth.c
    fts5.c
    stmt.c
 } {
